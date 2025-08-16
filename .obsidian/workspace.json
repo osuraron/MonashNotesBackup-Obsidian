@@ -85,12 +85,21 @@
         "type": "tabs",
         "children": [
           {
+            "id": "34b6a781ba5f57b4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
             "id": "582a805fa6dc2e6d",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Intro to Java/Untitled.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled"
+              "title": "Backlinks"
             }
           },
           {
@@ -109,12 +118,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Intro to Java/Untitled.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Untitled"
+              "title": "Outgoing links"
             }
           },
           {
@@ -146,23 +154,12 @@
               "icon": "lucide-list",
               "title": "Outline of Java Notes"
             }
-          },
-          {
-            "id": "34b6a781ba5f57b4",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5d0c2bb7852cb4d8",
+  "active": "34b6a781ba5f57b4",
   "lastOpenFiles": [
     "Untitled.canvas",
     "Intro to Java/Java Notes.md",
