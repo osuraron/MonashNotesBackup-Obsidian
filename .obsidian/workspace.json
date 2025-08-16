@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "1f72b656972badc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "3be5344b38d287a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa1faeaa4ece44aa",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72f36469038a6e4a",
+    "type": "split",
+    "children": [
+      {
+        "id": "33cf5bf090e9b78e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d0c2bb7852cb4d8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "77bcf890d232eabe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "path:\"Computer Networks/\" ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "997cdcf320d2459d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "354f9a6b017752c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a1b0343d7236614",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "582a805fa6dc2e6d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Intro to Java/Untitled.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "d138611500e258cf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Intro to Java/Untitled.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "3ca0d0ebaea51521",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8684980ea5f2cc1c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Intro to Java/Java Notes.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Java Notes"
+            }
+          },
+          {
+            "id": "34b6a781ba5f57b4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "5d0c2bb7852cb4d8",
+  "lastOpenFiles": [
+    "Untitled.canvas",
+    "Intro to Java/Java Notes.md",
+    "Intro to Java/Untitled.canvas",
+    "Computer Networks/Untitled.md",
+    "Intro to Databases/Week 2.md",
+    "Intro to Databases/images",
+    "Intro to Databases/images/Pasted image 20250805174829.png",
+    "Intro to Databases/images/Pasted image 20250805165059.png",
+    "Intro to Databases/images/Pasted image 20250805171852.png",
+    "Intro to Databases/images/Pasted image 20250805171019.png",
+    "Intro to Databases/Untitled.canvas",
+    "Intro to Databases",
+    "Intro to Python",
+    "Welcome.md",
+    "Computer Networks",
+    "Intro to Java",
+    "desktop.ini"
+  ]
+}
