@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro to Python/python.md",
+                "file": "Computer Networks/Computer Networks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python"
+              "title": "Computer Networks"
             }
           }
         ]
@@ -177,13 +177,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "34b6a781ba5f57b4",
+  "active": "fa1faeaa4ece44aa",
   "lastOpenFiles": [
-    "Intro to Python/python.md",
+    "Computer Networks/Marie Programs.md",
+    "Computer Networks/Computer Networks.md",
+    "Computer Networks/images/Pasted image 20250818231833.png",
+    "Computer Networks/images/20250817_213245.jpg",
+    "Computer Networks/images/20250817_213245 1.jpg",
+    "Computer Networks/images/Pasted image 20250817231927.png",
+    "Computer Networks/images/Pasted image 20250817231628.png",
     "Untitled.canvas",
+    "Computer Networks/images",
+    "Intro to Python/Python Notes.md",
+    "Intro to Python/images",
+    "Intro to Python/images/Pasted image 20250817200636.png",
     "Intro to Java/Java Notes.md",
     "Intro to Java/Untitled.canvas",
-    "Computer Networks/Untitled.md",
     "Intro to Databases/Week 2.md",
     "Intro to Databases/images",
     "Intro to Databases/images/Pasted image 20250805174829.png",

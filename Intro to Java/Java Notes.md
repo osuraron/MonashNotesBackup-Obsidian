@@ -228,6 +228,7 @@ The second example is correct, even though only one param was there, the second 
 `/= compound division`
 `%= compound modulus`
 
+**Example of usage**
 int a =10
 int b = a++ // b = a 
 			// a = a + 1
