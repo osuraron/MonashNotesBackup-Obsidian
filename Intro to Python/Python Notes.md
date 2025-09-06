@@ -10,7 +10,7 @@
 **Functions**
 - Like methods in java
 
-```cpp
+```python
 def square(x):
    return x * x
 ```
@@ -27,7 +27,7 @@ def square(x):
 ![[Pasted image 20250817200636.png]]
 
 **User input and printing**
-```cpp
+```python
 n = input("Please enter your name: ")
 print("Hello", n)
 print(f"Hello {n}") //formated way
@@ -52,7 +52,7 @@ The `not in` operator returns the logical opposite result of `in`.
 **Conditional statement** / (Selection Statements)
 - A statement that controls the flow of execution depending on some condition. In Python the keywords `if`, `elif`, and `else` are used for conditional statements.
 - 
-```cpp
+```python
 x = 15
 
 if x % 2 == 0:
@@ -63,7 +63,7 @@ else:
 
 **Chained condition**
 - Includes an elif condition
-```cpp
+```python
 x = 10
 y = 10
 
@@ -76,7 +76,7 @@ else:
 ```
 
 **While Loops**
-```cpp
+```python
 total  = 0
 n = 10
 a_number = 1
@@ -86,3 +86,268 @@ while a_number <= n:
     print(total)
 ```
 
+**Loops with arrays / lists**
+
+*Method 1*
+```python
+fruits = ["apple", "orange", "banana", "cherry"]
+for fruit in fruits:     # by item in list
+    print(fruit)
+```
+
+*Method 2*
+```python
+print("This will execute first")
+
+for i in range(3):
+    print("This line will execute three times")
+    print("This line will also execute three times")
+
+print("Now we are outside of the for loop!")
+```
+
+*Method* 3
+```python
+fruits = ['apple', 'pear', 'apricot', 'cherry', 'peach']
+for n in range(len(fruits)):
+    print(n, fruits[n])
+```
+
+**Iterate and accumulate a list**
+```python
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+accum = 0
+for w in nums:
+    accum = accum + w
+print(accum)
+```
+
+**Tuples**
+
+`julia = ("Julia", "Roberts", 1967, "Duplicity", 2009, "Actress", "Atlanta, Georgia")`
+
+A **tuple**, like a list, is a sequence of items of any type. The printed representation of a tuple is a comma-separated sequence of values, enclosed in parentheses. In other words, the representation is just like lists, except with parentheses () instead of square brackets [].
+
+The key difference between lists and tuples is that a tuple is immutable, meaning that its contents can’t be changed after the tuple is created
+
+###### **Slicing**
+
+We can easily slice off the parts we want and concatenate them with the new tuple.
+
+```python
+julia = julia[:3] + ("Eat Pray Love", 2010) + julia[5:]
+print(julia)
+```
+
+`('Julia', 'Roberts', 1967, 'Eat Pray Love', 2010, 'Actress', 'Atlanta, Georgia')`
+
+**List slice**
+Slices out the required parts 
+```python
+a_list = ['a', 'b', 'c', 'd', 'e', 'f']
+print(a_list[1:3])
+```
+
+`['b', 'c']`
+
+**String slice with comma**
+
+```python
+singers = "Peter, Paul, and Mary"
+print(singers[0:5])
+```
+
+**Slice list**
+Slicing a list creates a new list — it’s **not the same object**.
+```python
+b = a[:] 
+```
+
+**String concatenation**
+
+```python
+fruit = ["apple","orange","banana","cherry"]
+print([1,2] + [3,4])
+print(fruit+[6,7,8,9])
+
+print([0] * 4)
+```
+
+`[1, 2, 3, 4]`
+`['apple', 'orange', 'banana', 'cherry', 6, 7, 8, 9]`
+`[0, 0, 0, 0]`
+
+**Index() function**
+
+``` python
+music = "Pull out your music and dancing can begin"
+bio = ["Metatarsal", "Metatarsal", "Fibula", [], "Tibia", "Tibia", 43, "Femur", "Occipital", "Metatarsal"]
+
+print(music.index("m"))
+print(music.index("your"))
+
+print(bio.index("Metatarsal"))
+print(bio.index("Tibia"))
+print(bio.index([]))
+print(bio.index(43))
+```
+
+```js
+14
+9
+0
+4
+3
+6
+```
+
+**Split function()**
+
+``` python
+song = "The rain in Spain..."
+wds = song.split() #split using space, we can add , or any value
+print(wds) 
+```
+
+`['The', 'rain', 'in', 'Spain...']`
+
+```python
+wds = ["red", "blue", "green"]
+glue = ';'
+s = glue.join(wds)
+print(s)
+print(wds)
+
+print("***".join(wds))
+print("".join(wds))
+```
+
+`red;blue;green`
+`['red', 'blue', 'green']`
+`red***blue***green`
+`redbluegreen`
+
+**Semantic Error**
+- This will produce the wrong answer because the programmer implemented the solution incorrectly. This is a semantic error.
+
+**Functions**
+```python
+def hello():
+    """This function says hello and greets you""" #docstrings
+    print("Hello")
+    print("Glad to meet you")
+```
+
+**Docstrings  
+  
+If the first thing after the function header is a string (some tools insist that it must be a triple-quoted string), it is called a docstring and gets special treatment in Python and in some of the programming tools.
+
+**Type Annotations**
+
+```python
+def duplicate(msg: str) -> str:
+    """Returns a string containing two copies of `msg`"""
+
+    return msg + msg
+
+result = duplicate('Hello')
+print(result)
+```
+
+This process of breaking a problem into smaller subproblems is called **functional decomposition** using functions. 
+
+##### **Dictionary (Key-Value Pairs)**
+- A collection of key-value pairs that maps from keys to values. The keys can be any immutable type, and the values can be any type
+
+```python
+eng2sp = {} #empty dict
+eng2sp['one'] = 'uno' # {one : uno}
+eng2sp['two'] = 'dos' # {two : dos}
+eng2sp['three'] = 'tres' # {three : tres}
+print(eng2sp) 
+
+#{'three': 'tres', 'one': 'uno', 'two': 'dos'}
+```
+
+**Dictionary operations**
+
+```python
+inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}
+del inventory['pears']
+inventory['apples'] = 0
+
+#apples 0
+#bananas 312
+#oranges 525
+```
+
+Iteration over Dictionary
+
+```python
+inventory = {'apples': 430, 'bananas': 312, 'pears': 217, 'oranges': 525}
+
+for akey in inventory.keys():   
+    print("Got key", akey, "which maps to value", inventory[akey])
+
+ks = list(inventory.keys())       # Make a list of all of the keys
+print(ks)
+print(ks[0]) 
+
+
+# Got key apples which maps to value 430
+# Got key bananas which maps to value 312
+# Got key pears which maps to value 217
+# Got key oranges which maps to value 525
+# ['apples', 'bananas', 'pears', 'oranges']
+# apples 
+```
+
+**Items()**
+- The `items` method returns a collection of tuples containing each key and its associated value. 
+
+```python
+inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}
+print(list(inventory.items()))
+	for k, v in inventory.items():
+		print("Got", k, "that maps to", v)
+
+#[('apples', 430), ('bananas', 312), ('oranges', 525), ('pears', 217)]
+#Got apples that maps to 430
+#Got bananas that maps to 312
+#Got oranges that maps to 525
+#Got pears that maps to 217
+```
+
+**Values()**
+- The `values` method returns a collection of the values in the dictionary.
+
+```python
+inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}
+print(list(inventory.values()))
+for v in inventory.values():
+    print("Got", v)
+
+#[430, 312, 525, 217]
+#Got 430
+#Got 312
+#Got 525
+#Got 217
+```
+
+**Get()**
+- `get` retrieves the value associated with a key, similar to the `[]` operator. The important difference is that `get` will not cause a runtime error if the key is not present. It will instead return the value `None`
+```python
+inventory = {'apples': 430, 'bananas': 312, 'oranges': 525, 'pears': 217}
+
+print(inventory.get("apples"))
+print(inventory.get("cherries"))
+
+print(inventory.get("cherries",0))
+
+#430
+#None
+#0
+```
+
+**List Methods**
+![[Pasted image 20250907014524.png]]

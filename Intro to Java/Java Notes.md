@@ -81,7 +81,7 @@ Primitive types are predefined as part of the Java language and are not associat
 
 Object types are those defined by classes
 
-- String
+- ***String***: An object of the String class is used to store a sequence of characters.
 
 **Statements:** A statement is an action or series of actions ending in a semi-colon
 
@@ -228,43 +228,144 @@ The second example is correct, even though only one param was there, the second 
 `/= compound division`
 `%= compound modulus`
 
-**Example of usage**
-int a =10
+###### **Increment / Decrement**
+
+`a++` & `a--`
+
+``` java
+//a++
+int a = 10
 int b = a++ // b = a 
 			// a = a + 1
 b = 11
 
-
+//a--
 int a =10
 int b = ++a // a = a + 1
 			// b =a
 b = 10
+```
+
+![[Pasted image 20250822134536.png]]
 
 **Explicit type cast**
-(int)10.35
+- When we *cast* in front of the number to change its type
+	`(int)10.35`
 
 **Implicit type cast**
+- Automatically converts the type since we are adding extra digits, for ex .00
+	`int x = 10
+	`double y = x    // y = 10.0
 
-int x = 10
-double y = x    // y = 10.0
-
-Selection Constructs
-
+**Selection Constructs**
+`if/else`
+```java
 if (conditional expression)
 else // consequent
-elseif // alternative
+else if // alternative
+```
 
+`switch case`
+```java
 switch (expression)
 case 1:
 case 2:
-break;
-default:
+	break; // break if this condition is true
+default: //optional default ans
+
+```
 
 **Conditional Operator**
 
+```java
 isStudent ? "Student" : "Not a student"
+//condition ? true : false
+```
 
+##### **Scanner Class** 
 
+```java
+import java.util.Scanner;
 
+public class Read
+{
+    public static void main(String[] args)
+    {
+        Scanner console = new Scanner(System.in); //new object
+        System.out.println("Please enter your first name and last name");
+        String fName = console.next(); //to capture the input
+        String lName = console.nextLine(); //another way to capture
+    }
+}
+```
 
+##### **Iterations**
+Java supports two main types of loops:
+
+- ***Pre-test loops:*** because the loop condition is tested prior to execution of the loo
+	    `for & while loops`
+
+- ***Post-test loops***: because the loop condition is tested after execution of the loop instructions. If the condition is true, the loop will repeat. If the condition is false, the loop exits.
+		`do-while loops`
+
+`for`
+```java
+for (int i = 0; i < max; i++)
+        {
+            System.out.println((i + 1));
+        }
+```
+
+`while`
+```java
+int i = 0;
+        while (i < max)
+        {
+            System.out.println((i + 1));
+            i++;
+        }
+```
+
+`do-while`
+```java
+do
+	{
+	    System.out.println((i + 1));
+	    i++;
+    } while (i < max);
+```
+
+**Collection**: A collection in Java is a data structure used to store sets of the same type of object
+
+##### Arrays
+- An array is a special type of collection that can store a fixed number of items.
+
+```java
+ //initialisation
+ Student[] students = new Student[3];
+
+        // Fill array with Student objects
+        students[0] = new Student("Alice", 20);
+        students[1] = new Student("Bob", 22);
+        students[2] = new Student("Charlie", 19);
+
+//another way to initialise
+	String[] daysOfWeek = {"Sunday", "Monday", "Tuesday", "Wednesday",
+                                 "Thursday", "Friday", "Saturday"};
+ 
+
+```
+
+*null*—a reserved word in Java that is used to mean 'no object' when an object variable is not currently referring to a particular object
+
+**Class diagram**
+A class diagram shows a program's classes, the classes' attributes and methods, and the relationships between the classes.
+![[Pasted image 20250822221552.png]]
+
+Unified Modelling Language (UML) is used in software engineering as a modelling language.
+
+**Object Diagram**
+An object diagram shows the objects and their relationships at one moment in time during the execution of an application. It gives information about objects at runtime and presents the dynamic view of a program.
+
+![[Pasted image 20250822221541.png]]
 

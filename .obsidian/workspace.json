@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Networks/Computer Networks.md",
+                "file": "Intro to Python/Python Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Computer Networks"
+              "title": "Python Notes"
             }
           }
         ]
@@ -167,6 +167,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -179,26 +180,27 @@
   },
   "active": "fa1faeaa4ece44aa",
   "lastOpenFiles": [
-    "Computer Networks/Marie Programs.md",
+    "Intro to Python/images/Pasted image 20250907014524.png",
+    "Intro to Databases/images/Pasted image 20250830190533.png",
+    "Intro to Databases/images/Pasted image 20250830173639.png",
+    "Intro to Python/Python Notes.md",
+    "Intro to Databases/Databases.md",
+    "Intro to Databases/images/Pasted image 20250830173428.png",
     "Computer Networks/Computer Networks.md",
+    "Intro to Java/Java Notes.md",
+    "Intro to Java/images/Pasted image 20250822221552.png",
+    "Intro to Java/images/Pasted image 20250822221541.png",
+    "Intro to Java/images/Pasted image 20250822134536.png",
+    "Intro to Java/images",
+    "Computer Networks/Marie Programs.md",
     "Computer Networks/images/Pasted image 20250818231833.png",
     "Computer Networks/images/20250817_213245.jpg",
     "Computer Networks/images/20250817_213245 1.jpg",
-    "Computer Networks/images/Pasted image 20250817231927.png",
-    "Computer Networks/images/Pasted image 20250817231628.png",
     "Untitled.canvas",
     "Computer Networks/images",
-    "Intro to Python/Python Notes.md",
     "Intro to Python/images",
-    "Intro to Python/images/Pasted image 20250817200636.png",
-    "Intro to Java/Java Notes.md",
     "Intro to Java/Untitled.canvas",
-    "Intro to Databases/Week 2.md",
     "Intro to Databases/images",
-    "Intro to Databases/images/Pasted image 20250805174829.png",
-    "Intro to Databases/images/Pasted image 20250805165059.png",
-    "Intro to Databases/images/Pasted image 20250805171852.png",
-    "Intro to Databases/images/Pasted image 20250805171019.png",
     "Intro to Databases/Untitled.canvas",
     "Intro to Databases",
     "Intro to Python",

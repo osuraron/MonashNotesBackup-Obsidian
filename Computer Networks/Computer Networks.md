@@ -48,6 +48,15 @@ Both **instructions and data are 16 bits (2 bytes)** long in MARIE.
 
 So memory can hold **16-bit words**.
 
+####### **Memory display arrangement in MARIE simulator.
+
+- Memory is displayed as **rows of 16 words per row**.
+- This grouping makes it easier to read since **16 (decimal) = 0x10 (hexadecimal)**, and computer memory is often displayed in hexadecimal blocks.
+- **Total memory locations:** 4096 (4K = 2¹²).
+- **Relationship to address bus:** Since the address bus is **12 bits**, it can address **2¹² = 4096 memory locations**.
+
+
+
 The **Control Unit** and **ALU** are _not registers_ — they are functional units.  
 The **Memory** is also separate (main memory, not part of CPU registers).
 *Each memory location holds 16 bits*
