@@ -1,7 +1,7 @@
-**Conceptual Model:** 
+###### **Conceptual Model:** 
 - We use lines to connect the 2 entities, so we do not need to add foreign keys. Since the relationship is established from the connection
 
-###### **Example of Conceptual model**
+**Example of Conceptual model**
 
 ![[Pasted image 20250830173428.png]]
 
@@ -15,7 +15,7 @@
 
 If any of the tables do not have any of each other's keys, then we have to mark them as *non-identifying.* Marked as a dotted line. 
 
-**Identifying Relationship**
+###### **Identifying Relationship**
 
 ![[Pasted image 20250830190533.png]]
 A relationship where a **weak entity** depends on a **strong (owner) entity** for its identification
@@ -112,7 +112,7 @@ An attribute that can be **broken down into smaller sub-attributes** with their 
 - Finds tuples in one relation that are related to **all tuples** in another relation.
 - Example: Find students who have taken **all courses** offered.
 
-##### Normalization
+####### Normalization
 
 Normalization is the process of organizing data in a database to:
 
@@ -126,6 +126,7 @@ Normalization is the process of organizing data in a database to:
 - **UPDATE Anomaly** – Changing a value for an attribute requires multiple tuples to be changed – Danger: only some tuples will be updated leading to inconsistent data 
 
 - **DELETE Anomaly** – When a tuple in a relation is deleted, all tuple data is removed – Danger: related data, which may be the only such data will be lost
+
 ###### **Types of Functional Dependency**
 
 ###### Total (or Mutual) Dependency
@@ -151,4 +152,14 @@ Normalization is the process of organizing data in a database to:
     - `order_no ➔ cust_no`
     - `cust_no ➔ cust_name`
     - So indirectly: `order_no ➔ cust_name`.
+
+##### SQL Referential Integrity
+- RESTRICT 
+	Deletion of tuples is NOT ALLOWED for those tuples in the table referred by the FK (the table containing PK) if there is corresponding tuple in the table containing the FK. 
+
+- CASCADE 
+	A deletion of a tuple in the table referred by the FK (the table containing PK) will result in the deletion of the corresponding tuples in the table containing the FK. 
+
+- NULLIFY 
+	A deletion of a tuple in the table referred by the FK (the table containing PK) will result in the update of the corresponding tuples in the table containing the FK to NULL.
 

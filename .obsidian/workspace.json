@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Intro to Python/Python Notes.md",
+                "file": "Intro to Java/Java Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python Notes"
+              "title": "Java Notes"
             }
           }
         ]
@@ -178,16 +178,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa1faeaa4ece44aa",
+  "active": "34b6a781ba5f57b4",
   "lastOpenFiles": [
+    "Intro to Java/images/Pasted image 20250907223318.png",
+    "Intro to Databases/Databases.md",
+    "Intro to Java/Java Notes.md",
+    "Intro to Python/Python Notes.md",
     "Intro to Python/images/Pasted image 20250907014524.png",
     "Intro to Databases/images/Pasted image 20250830190533.png",
     "Intro to Databases/images/Pasted image 20250830173639.png",
-    "Intro to Python/Python Notes.md",
-    "Intro to Databases/Databases.md",
     "Intro to Databases/images/Pasted image 20250830173428.png",
     "Computer Networks/Computer Networks.md",
-    "Intro to Java/Java Notes.md",
     "Intro to Java/images/Pasted image 20250822221552.png",
     "Intro to Java/images/Pasted image 20250822221541.png",
     "Intro to Java/images/Pasted image 20250822134536.png",

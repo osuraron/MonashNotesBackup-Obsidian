@@ -351,3 +351,58 @@ print(inventory.get("cherries",0))
 
 **List Methods**
 ![[Pasted image 20250907014524.png]]
+
+###### **Copy**
+- **Assignment (`=`):** No copy, just another name for the same object.
+- **Shallow copy (`copy.copy()`):** Duplicates only the outer object, inner objects are shared.
+- **Deep copy (`copy.deepcopy()`):** Duplicates the outer object **and** all nested objects recursively.
+
+###### **File IO**
+**Open**
+`file_obj = open('filename.txt', 'mode')`
+
+How to read number of characters in a file, open and read file
+```python
+f = open("school_prompt2.txt", "r")
+file_contents = f.read()
+num_char = len(file_contents)
+f.close()
+print(num_char)
+```
+
+read number of lines
+```python
+f = open("travel_plans2.txt")
+lines = f.readlines()
+f.close()
+num_lines = len(lines)
+print(num_lines)
+```
+
+to write into a file
+```python
+filename = "squared_numbers.txt"
+outfile = open(filename, "w")
+
+for number in range(1, 13):
+    square = number * number
+    outfile.write(str(square) + "\n")
+
+outfile.close()
+```
+
+reads this file and outputs the average mark.
+```python
+with open("class.csv") as f:
+    lines = f.readlines()
+total = 0
+count = 0
+for line in lines[1:]:
+    name, mark = line.strip().split(',')
+    total += int(mark)
+    count += 1
+
+print(total/count)
+```
+
+ 

@@ -1,6 +1,17 @@
-###### Week 1
+###### Class, Object
 **Java:** Java is a high-level, object oriented programming language
 **Object-Oriented:** instructions are grouped with the data they operate on
+
+- **Java class**  
+    A class is the foundational building block of a Java program. The class fulfils a specific purpose and does so by including methods that provide the functionality.  
+- **Java package**   
+    Similar to how a Java class groups related methods together, a Java package groups related classes together based on the actions they perform. As such, similar classes are grouped in a package so they can be accessed more easily.  
+- **Java module**   
+    A module is a collection of Java packages and resources that are grouped together to develop a customized application or API..
+
+###### **Garbage Collection** 
+- Java uses a process called '_garbage collection_' to *delete* objects that are no longer required and the memory they occupied is recycled. 
+- While Java gives the programmer full control over when to create a new object, the programmer has almost no control over when the object is completely removed from memory.
 
 **Advantages of OO**
 1. Reusability
@@ -91,8 +102,6 @@ Object types are those defined by classes
 
 `int enrolment = 100;`
 `enrolment + 57        // this expression will evaluate to 157`
-
-###### Week 2
 
 - _fields —_ variables that store the attribute values of objects belonging to that class.
     
@@ -368,4 +377,44 @@ Unified Modelling Language (UML) is used in software engineering as a modelling 
 An object diagram shows the objects and their relationships at one moment in time during the execution of an application. It gives information about objects at runtime and presents the dynamic view of a program.
 
 ![[Pasted image 20250822221541.png]]
+
+**Implementation & Interface**
+- The _interface_ of a class describes what the class can do and how it can be used, without showing the implementation.
+
+- The _implementation_ of a class is the source code that defines the class.
+
+##### StringBuffer
+The advantage of using this class is that it only ever creates a single object in memory. 
+Each time we modify the object, Java actually modifies the object instead of creating a brand new one. 
+
+###### Math Random
+![[Pasted image 20250907223318.png]]
+
+##### Generics
+A generic class is one which allows the user to define the data types of the attributes that will be used within the class.
+###### ArrayList
+Since variable-size collections can add and remove an element dynamically during runtime
+` ArrayList<String> daysOfWeek = new ArrayList<String>();`
+
+Wrapper classes provide a way to use primitive data types where object types are required.
+` ArrayList<Integer> evenNumbers = new ArrayList<Integer>();`
+###### HashMaps
+Map—a collection that stores key and value pairs as entries. Values can be accessed by providing the key. 
+###### HashSet
+Set—a collection that stores each individual element at most once. It does not maintain any specific order.
+###### ForEach
+```java
+ArrayList<String> values = new ArrayList<String>();
+
+ for (String temp : values)
+        {
+            System.out.println(temp);
+        }
+```
+
+###### Iterator class
+An iterator is an object that provides functionality to iterate over objects of a collection
+
+Instead of instantiating it to a new object, we just get the reference to the one already being used by the collection
+`Iterator<String> it = list.iterator();`
 
